@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gallery">
+        <div class="nav-box">
+            <li class="nav-bar">
+              <a class="bar" href="index.html"> Home</a>
+              <a class="bar" href="About us.html"> About us</a>
+              <a class="bar" href="Video.html"> Video</a>
+              <a class="bar" href="Gallery.html"> Gallery</a>
+              <a class="bar" href="#"> Contact </a>
+            </li>
+            <h2 class="brand"> 1spirit_theophilus </h2>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+         
+          <div class="gal-box">
+
+             <div class="gal-bx1">
+              <img class="gal1" src="pic2.jpg" > 
+            <div class="gal2" >
+                <img class="gal5" src="pic3.jpeg"> 
+            </div>
+              
+            </div>
+          
+          <div class="gal-bx">
+                <img class="gal3" src="pic1.jpg" >
+              
+    
+              <div class="gal6">
+              <img class="gal4" src="pic4.jpg" >
+             </div>
+          </div>
+          </div> 
+
+
+
+
+
+        <script>
+            const menuBtn = document.querySelector('.fa-bars')
+            const navlink = document.querySelector('.nav-bar')
+      
+            menuBtn.addEventListener('click',()=>{
+                navlink.classList.toggle('mobile-menu')
+            })
+        </script>
+    </div>
+</body>
+</html>
